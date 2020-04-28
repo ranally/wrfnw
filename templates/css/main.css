@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0 0 0 0;
+   padding:0 0 0 0;}
+body {
+	background:url(../images/back.png) no-repeat;
+	background-size:100%100%;}
+h1 {margin:0 0 0 0;
+    padding:0 0 0 0;
+	font-weight:bolder;
+	text-shadow:5px 5px 5px #666;
+	color:#FFF;
+	text-decoration:blink;
+	font-size:24px;
+	text-align:center;}
+p {color:#FFF;
+   margin:0 0 0 0;
+   padding:0 0 0 0;}
+#sdate {margin-top:10px;
+        padding:0 0 0 0;}
+#header {text-align:center;
+		 padding:10px;
+		 margin:0 0 0 0;
+		 background:url(../images/back.png) no-repeat;
+		 background-size:100%100%;}
+#leftbox {
+	float:left;
+	width:20%;
+	padding-left:10px;
+	padding-right:0;
+	margin:0 0 0 0;}
+#menu {width:100%;
+       height:50px;
+       margin-bottom:5px;
+	   background:url(../images/button2.png) no-repeat;
+	   display:block;}
+#main_menu {width:100%;
+       height:auto;
+       margin-bottom:5px;
+	   padding-bottom:10px;
+	   padding-top:10px;
+	   background:url(../images/button2.png) no-repeat;
+	   background-size:100%100%;}
+a {
+    text-decoration:none;
+	color:white;
+}
+
+a:visited{color:white;}
+#main {
+    margin:0 0 0 0;
+    color::#FFF;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:5px;
+}
+
+#main li {
+    display:inline;
+    margin-right:10px;
+    padding-right:10px;
+	padding-left:10px;
+    font-weight:bold;
+	color:white;
+	text-align:center;
+	font-size:16px;
+	margin-bottom:0
+	cursor:pointer;
+}
+.button,.button1{float:left;
+          width:50%;
+          height:35px;
+		  margin:0 0 0 0;
+		  font-weight:bold;
+          font-size:60%;
+		  color:white;
+		  background:url(../images/button1.png);
+		  background-size:100%100%;
+		  cursor:pointer;}
+#on      {
+          background:url(../images/button2.png) no-repeat;
+		  background-size:100%100%;
+         }
+.on      {
+          width:55px;
+				   height:25px;
+				   background:auto;
+				   color:white;
+				   background:url(../images/button2.png);
+		           background-size:100%100%;
+				   cursor:pointer;;
+         }
+#on1     {
+          background:url(../images/button2.png) no-repeat;
+		  background-size:100%100%;
+         }
+#on2     {
+          background:url(../images/button2.png) no-repeat;
+		  background-size:100%100%;
+         }
+.active {background:url(../images/button1.png) no-repeat;
+		  background-size:100%100%;}
+#on3     {
+          background:url(../images/button2.png) no-repeat;
+		  background-size:100%100%;
+         }
+#menubox_wrf{float:left;
+           margin-bottom:20px;
+		   display:block;
+		   background:url(../images/button1.png);
+		  background-size:100%100%;}
+#single_station {float:left;
+           margin-bottom:20px;
+		   display:none;
+		   background:url(../images/button1.png);
+		  background-size:100%100%;}
+#timebox {float:left;
+          margin-top:5px;
+           display:block;
+		   background:url(../images/button1.png);
+		  background-size:100%100%;}
+.fbutton,.fbutton1{float:left;
+                   width:25%;
+				   height:35px;
+				   font-size:60%;
+				   background:auto;
+				   color:white;
+				   background:url(../images/button1.png);
+		           background-size:100%100%;
+				   cursor:pointer;}
+.fsbutton{float:left;
+                   width:25%;
+				   height:35px;
+				   font-size:60%;
+				   background:auto;
+				   color:white;
+				   background:url(../images/button1.png);
+		           background-size:100%100%;
+				   cursor:pointer;}
+.tbutton {float:left;
+                   width:12.5%;
+				   height:25px;
+				   background:auto;
+				   color:white;
+				   background:url(../images/button1.png);
+		           background-size:100%100%;
+				   cursor:pointer;}
+.interval {
+                   width:55px;
+				   height:25px;
+				   font-size:60%;
+				   background:auto;
+				   color:white;
+				   background:url(../images/button1.png);
+		           background-size:100%100%;
+				   cursor:pointer;}
+#img      {float:left;
+           width:100%;
+		   height:auto;
+		   margin-top:5px;
+		   padding:0;}
+		   
+#imgbox   {float:left;
+           width:65%;
+		   margin-bottom:50px;
+		   height:auto;
+		   margin-left:100px;
+		   margin-top:0;
+		   margin-right:0;}
+#playdiv {float:left;
+          margin-top:0;
+		  margin-bottom:-20px;
+	      margin-left:25%;}
+#downbtn1,#downbtn2,#downbtn3,#downbtn4{
+	height:25px;
+	width:auto;
+	position:absolute;
+	margin-top:2px;}
+#footer {clear:left;
+         margin-top:5px;
+		 background:url(../images/back.png) no-repeat;
+		 background-size:100%100%;
+         border-top:2px solid #FFF;
+         padding:10px 0 30px 0;
+         width:100%;
+		 text-align:center;}
+#foot {font-size:10px;}
